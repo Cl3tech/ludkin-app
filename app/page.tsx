@@ -3,9 +3,9 @@ import { useState, useEffect } from "react";
 import { MapPin, Ticket, Download, Share } from "lucide-react";
 
 const GIGS = [
-  { id: 1, date: "22/02", club: "Amendoeiras", city: "Loulé", type: "Main Set" },
-  { id: 2, date: "07/03", club: "Vila F'Liz", city: "Lisboa", type: "Deep House" },
-  { id: 3, date: "15/03", club: "TBA", city: "Porto", type: "Event" },
+  { id: 1, date: "", club: "", city: "", type: "" },
+  { id: 2, date: "", club: "", city: "", type: "" },
+  { id: 3, date: "", club: "", city: "", type: "" },
 ];
 
 const GALLERY = [

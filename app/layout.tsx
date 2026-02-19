@@ -36,7 +36,7 @@ export const viewport: Viewport = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="pt-pt">
-      <body className="...">
+      <body className="bg-black text-white antialiased">
         <AudioProvider>
           <main className="pb-32">{children}</main>
           <GlobalPlayer />

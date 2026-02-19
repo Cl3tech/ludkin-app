@@ -43,11 +43,11 @@ export default function BioPage() {
           </a>
           
           <div className="flex gap-4">
-            <a href="#" className="flex-1 bg-white/5 border border-white/10 p-4 rounded-2xl text-center hover:bg-white/10 transition-all">
-              <span className="text-sm font-bold font-mono">Instagram</span>
+            <a href="https://www.facebook.com/profile.php?id=61588311304854" className="flex-1 bg-white/5 border border-white/10 p-4 rounded-2xl text-center hover:bg-white/10 transition-all">
+              <span className="text-sm font-bold font-mono">Facebook</span>
             </a>
-            <a href="#" className="flex-1 bg-white/5 border border-white/10 p-4 rounded-2xl text-center hover:bg-white/10 transition-all">
-              <span className="text-sm font-bold font-mono">Soundcloud</span>
+            <a href="https://www.instagram.com/djludkin_vibes/?fbclid=IwY2xjawQD5z5leHRuA2FlbQIxMQBicmlkETJFQU02RzFlbFhtaU1tczMxc3J0YwZhcHBfaWQBMAABHrllvbQTKS7wcRd71Rua2z4JH-F4i5MtoSPlWcCeselZaNWe3YHCcDIcehTK_aem_Rj-S9k0EwWYd01xsTTM3sw" className="flex-1 bg-white/5 border border-white/10 p-4 rounded-2xl text-center hover:bg-white/10 transition-all">
+              <span className="text-sm font-bold font-mono">Istagram</span>
             </a>
           </div>
         </div>

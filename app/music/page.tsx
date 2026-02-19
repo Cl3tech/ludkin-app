@@ -26,7 +26,7 @@ const TRACKS = [
     album: "Original Mix",
     duration: "3:37",
     cover: "./icons/icon-512x512.png",
-    url: "/audio/vejam_bem.wav",
+    url: "/audio/vejam.wav",
   },
   {
     id: 4,

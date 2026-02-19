@@ -1,8 +1,9 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Invertemos aqui: Fundo Preto, Texto Branco */
+  --background: #000000; 
+  --foreground: #ffffff;
 }
 
 @theme inline {
@@ -12,11 +13,10 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* Podes apagar o @media (prefers-color-scheme: dark) se quiseres que seja SEMPRE preto */
+:root {
+  --background: #000000;
+  --foreground: #ffffff;
 }
 
 body {
@@ -27,13 +27,14 @@ body {
 
 @layer base {
   body {
-    @apply bg-black text-white;
+    background-color: #000000; /* Força o preto aqui */
+    color: #ffffff;
     min-height: 100vh;
-    /* Suporte para iOS safe areas */
     padding-bottom: env(safe-area-inset-bottom);
   }
 }
 
+/* O resto do teu código (keyframes e scrollbar) pode ficar igual */
 @keyframes float {
   0% { transform: translateY(0px); }
   50% { transform: translateY(-20px); }
