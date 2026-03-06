@@ -4,13 +4,12 @@ import { useAudio } from "../context/AudioContext";
 import { Play, Pause, Share2, Download, MoreHorizontal } from "lucide-react";
 
 const TRACKS = [
-  { id: 1, title: "Vila Flor de Ferro", album: "Original Mix", duration: "2:30", cover: "./icons/icon-512x512.png", url: "/audio/vila_flor_de_ferro.wav" },
-  { id: 2, title: "Hipocrisia", album: "Original Mix", duration: "3:09", cover: "./icons/icon-512x512.png", url: "/audio/hipocrisia.wav" },
-  { id: 3, title: "Carmen", album: "Original Mix", duration: "3:09", cover: "./icons/icon-512x512.png", url: "/audio/carmen.wav" },
-  { id: 4, title: "Vejam Bem", album: "Original Mix", duration: "3:37", cover: "./icons/icon-512x512.png", url: "/audio/vejam.wav" },
-  { id: 5, title: "Maria", album: "Original Mix", duration: "2:29", cover: "./icons/icon-512x512.png", url: "/audio/maria.wav" },
-  { id: 6, title: "Malhão", album: "Original Mix", duration: "2:45", cover: "./icons/icon-512x512.png", url: "/audio/malhao.wav" },
-  { id: 7, title: "Reis de Vila Flor", album: "Original Mix", duration: "3:51", cover: "./icons/icon-512x512.png", url: "/audio/reis_de_vila_flor.wav" }
+  { id: 1, title: "Vila Flor de Ferro", album: "Original Mix", duration: "2:30", cover: "./icons/icon-512x512.png", url: "/audio/VilaFlordeFerro.mp3" },
+  { id: 2, title: "Carmen", album: "Original Mix", duration: "3:09", cover: "./icons/icon-512x512.png", url: "/audio/Carmen.mp3" },
+  { id: 3, title: "Vejam Bem", album: "Original Mix", duration: "3:37", cover: "./icons/icon-512x512.png", url: "/audio/Vejambem.mp3" },
+  { id: 4, title: "Maria", album: "Original Mix", duration: "2:29", cover: "./icons/icon-512x512.png", url: "/audio/Maria.mp3" },
+  { id: 5, title: "Malhão", album: "Original Mix", duration: "2:45", cover: "./icons/icon-512x512.png", url: "/audio/Malhão.mp3" },
+  { id: 6, title: "Reis de Vila Flor", album: "Original Mix", duration: "3:51", cover: "./icons/icon-512x512.png", url: "/audio/ReisdeVilaFlor.mp3" }
 ];
 
 export default function MusicPage() {
