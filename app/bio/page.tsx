@@ -9,7 +9,7 @@ export default function BioPage() {
           <div className="absolute -inset-1 bg-cyan-500 rounded-full blur opacity-25"></div>
           <div className="relative w-full h-full rounded-full overflow-hidden border-2 border-white/10">
             <img 
-              src="/icons/icon-512x512.png" 
+              src="/icons/imgBio.png" 
               className="w-full h-full object-cover" 
               alt="LUDKIN" 
             />
@@ -37,17 +37,24 @@ export default function BioPage() {
 
         {/* Links Rápidos */}
         <div className="grid grid-cols-1 gap-4 w-full mt-12">
+          {/* Email / Bookings */}
           <a href="mailto:djludkin@gmail.com" className="flex items-center justify-between bg-white/5 border border-white/10 p-5 rounded-2xl hover:bg-cyan-500/10 hover:border-cyan-500/30 transition-all group">
             <span className="font-bold text-sm uppercase tracking-widest">Bookings</span>
             <span className="text-xs text-gray-500 group-hover:text-cyan-400 font-mono">djludkin@gmail.com</span>
           </a>
+
+          {/* NOVO: Contacto Telefónico */}
+          <a href="tel:+351915431505" className="flex items-center justify-between bg-white/5 border border-white/10 p-5 rounded-2xl hover:bg-cyan-500/10 hover:border-cyan-500/30 transition-all group">
+            <span className="font-bold text-sm uppercase tracking-widest">Contacto Directo</span>
+            <span className="text-xs text-gray-500 group-hover:text-cyan-400 font-mono">+351 915 431 505</span>
+          </a>
           
           <div className="flex gap-4">
-            <a href="https://www.facebook.com/profile.php?id=61588311304854" className="flex-1 bg-white/5 border border-white/10 p-4 rounded-2xl text-center hover:bg-white/10 transition-all">
+            <a href="https://www.facebook.com/djludkin/" className="flex-1 bg-white/5 border border-white/10 p-4 rounded-2xl text-center hover:bg-white/10 transition-all">
               <span className="text-sm font-bold font-mono">Facebook</span>
             </a>
             <a href="https://www.instagram.com/djludkin_vibes/?fbclid=IwY2xjawQD5z5leHRuA2FlbQIxMQBicmlkETJFQU02RzFlbFhtaU1tczMxc3J0YwZhcHBfaWQBMAABHrllvbQTKS7wcRd71Rua2z4JH-F4i5MtoSPlWcCeselZaNWe3YHCcDIcehTK_aem_Rj-S9k0EwWYd01xsTTM3sw" className="flex-1 bg-white/5 border border-white/10 p-4 rounded-2xl text-center hover:bg-white/10 transition-all">
-              <span className="text-sm font-bold font-mono">Istagram</span>
+              <span className="text-sm font-bold font-mono">Instagram</span>
             </a>
           </div>
         </div>

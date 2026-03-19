@@ -105,18 +105,41 @@ export default function HomePage() {
 
       {/* 5. VÍDEO SET VERTICAL */}
       <section className="px-6 mb-16 flex flex-col items-center text-center">
+  <h2 className="w-full text-left text-sm font-mono text-gray-500 tracking-[0.3em] uppercase mb-4">
+    Latest Performance
+  </h2>
+  
+  {/* Ajuste no contentor para garantir o formato 9:16 real */}
+  <div className="w-full max-w-[400px] aspect-[9/16] rounded-3xl overflow-hidden border border-cyan-500/20 bg-neutral-900 shadow-[0_0_50px_-12px_rgba(6,182,212,0.5)]">
+    <iframe 
+      className="w-full h-full object-cover"
+      src="https://www.youtube.com/embed/EVLWLF1DMlU" 
+      title="LUDKIN A Saudade"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+      allowFullScreen
+    ></iframe>
+  </div>
+
+  <h2 className="w-full text-left text-sm font-mono text-gray-500 tracking-[0.3em] uppercase mt-6 mb-4">
+    A Saudade
+  </h2>
+</section>
+      
+       {/* 5. VÍDEO SET Horizontal */}
+      <section className="px-6 mb-16 flex flex-col items-center text-center">
         <h2 className="w-full text-left text-sm font-mono text-gray-500 tracking-[0.3em] uppercase mb-4">Latest Performance</h2>
-        <div className="w-full max-w-[320px] aspect-9/16 rounded-3xl overflow-hidden border border-cyan-500/20 bg-neutral-900 shadow-[0_0_50px_-12px_rgba(6,182,212,0.5)]">
+        <div className="w-full max-w-500 h-60 aspect-ratio-16/9 rounded-3xl overflow-hidden border border-cyan-500/20 bg-neutral-900 shadow-[0_0_50px_-12px_rgba(6,182,212,0.5)]">
           <iframe 
             className="w-full h-full"
-            src="https://www.youtube.com/embed/BM_Fjrwh5U8" 
+            src="https://www.youtube.com/embed/jTJEWAV-ths" 
             title="LUDKIN A Saudade"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
             allowFullScreen
           ></iframe>
         </div>
+        <h2 className="w-full text-left text-sm font-mono text-gray-500 tracking-[0.3em] uppercase mb-4">A Saudade</h2>
       </section>
-
+      
       {/* 6. GIGS */}
       <section className="px-6 pb-20">
         <h2 className="text-sm font-mono text-gray-500 tracking-[0.3em] uppercase mb-4">Upcoming Gigs</h2>
