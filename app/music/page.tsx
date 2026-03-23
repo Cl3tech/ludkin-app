@@ -7,7 +7,7 @@ const TRACKS = [
   { id: 1, title: "A Saudade", album: "Original", duration: "3:51", cover: "./icons/saudade.jpg", url: "/audio/Saudade.mp3" },
   { id: 2, title: "Vila Flor de Ferro", album: "Original", duration: "2:30", cover: "./icons/vilaflor.png", url: "/audio/VilaFlorFerro.mp3" },
   { id: 3, title: "Carmen", album: "Original", duration: "3:09", cover: "./icons/carmen.jpg", url: "/audio/Carmen.mp3" },
-  { id: 4, title: "Vejam Bem", album: "Original", duration: "3:37", cover: "./icons/vejambem.jpg", url: "/audio/Vejambem.mp3" },
+  { id: 4, title: "Vejam Bem", album: "Original", duration: "3:37", cover: "./icons/vejamBem.jpg", url: "/audio/Vejambem.mp3" },
   { id: 5, title: "Maria", album: "Original", duration: "2:29", cover: "./icons/maria.jpg", url: "/audio/Maria.mp3" },
   { id: 6, title: "Malhão", album: "Original", duration: "2:45", cover: "./icons/malhao.jpg", url: "/audio/Malhão.mp3" },
 ];
