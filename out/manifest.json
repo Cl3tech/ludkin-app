@@ -2,6 +2,7 @@
   "name": "LUDKIN DJ & Producer",
   "short_name": "LUDKIN",
   "description": "Plataforma oficial de LUDKIN - Gigs, Music & Videos",
+  "id": "/?source=pwa",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#000000",
@@ -11,12 +12,13 @@
       "src": "/icons/icon-192x192.png",
       "sizes": "192x192",
       "type": "image/png",
-      "purpose": "maskable"
+      "purpose": "any maskable"
     },
     {
       "src": "/icons/icon-512x512.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
     }
   ]
 }

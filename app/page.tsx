@@ -103,6 +103,21 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* 5. VÍDEO SET Horizontal */}
+      <section className="px-6 mb-16 flex flex-col items-center text-center">
+        <h2 className="w-full text-left text-sm font-mono text-gray-500 tracking-[0.3em] uppercase mb-4">Latest Performance</h2>
+        <div className="w-full max-w-500 h-60 aspect-ratio-16/9 rounded-3xl overflow-hidden border border-cyan-500/20 bg-neutral-900 shadow-[0_0_50px_-12px_rgba(6,182,212,0.5)]">
+          <iframe 
+            className="w-full h-full"
+            src="https://www.youtube.com/embed/FJ0tqc9o-oI" 
+            title="LUDKIN A Saudade"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowFullScreen
+          ></iframe>
+        </div>
+        <h2 className="w-full text-left text-sm font-mono text-gray-500 tracking-[0.3em] uppercase mb-4">Hipocrisia</h2>
+      </section>
+
       {/* 5. VÍDEO SET VERTICAL */}
       <section className="px-6 mb-16 flex flex-col items-center text-center">
   <h2 className="w-full text-left text-sm font-mono text-gray-500 tracking-[0.3em] uppercase mb-4">
@@ -121,7 +136,7 @@ export default function HomePage() {
   </div>
 
   <h2 className="w-full text-left text-sm font-mono text-gray-500 tracking-[0.3em] uppercase mt-6 mb-4">
-    A Saudade
+    Live Set
   </h2>
 </section>
       

@@ -4,13 +4,12 @@ import { useAudio } from "../context/AudioContext";
 import { Play, Pause, Share2, Download, MoreHorizontal } from "lucide-react";
 
 const TRACKS = [
-  { id: 1, title: "A Saudade", album: "Original", duration: "3:51", cover: "./icons/icon-512x512.png", url: "/audio/Saudade.mp3" },
-  { id: 2, title: "Vila Flor de Ferro", album: "Original", duration: "2:30", cover: "./icons/icon-512x512.png", url: "/audio/VilaFlordeFerro.mp3" },
-  { id: 3, title: "Carmen", album: "Original", duration: "3:09", cover: "./icons/icon-512x512.png", url: "/audio/Carmen.mp3" },
-  { id: 4, title: "Vejam Bem", album: "Original", duration: "3:37", cover: "./icons/icon-512x512.png", url: "/audio/Vejambem.mp3" },
-  { id: 5, title: "Maria", album: "Original", duration: "2:29", cover: "./icons/icon-512x512.png", url: "/audio/Maria.mp3" },
-  { id: 6, title: "Malhão", album: "Original", duration: "2:45", cover: "./icons/icon-512x512.png", url: "/audio/Malhão.mp3" },
-  { id: 7, title: "Reis de Vila Flor", album: "Original", duration: "3:51", cover: "./icons/icon-512x512.png", url: "/audio/ReisdeVilaFlor.mp3" }
+  { id: 1, title: "A Saudade", album: "Original", duration: "3:51", cover: "./icons/saudade.jpg", url: "/audio/Saudade.mp3" },
+  { id: 2, title: "Vila Flor de Ferro", album: "Original", duration: "2:30", cover: "./icons/vilaflor.png", url: "/audio/VilaFlorFerro.mp3" },
+  { id: 3, title: "Carmen", album: "Original", duration: "3:09", cover: "./icons/carmen.jpg", url: "/audio/Carmen.mp3" },
+  { id: 4, title: "Vejam Bem", album: "Original", duration: "3:37", cover: "./icons/vejambem.jpg", url: "/audio/Vejambem.mp3" },
+  { id: 5, title: "Maria", album: "Original", duration: "2:29", cover: "./icons/maria.jpg", url: "/audio/Maria.mp3" },
+  { id: 6, title: "Malhão", album: "Original", duration: "2:45", cover: "./icons/malhao.jpg", url: "/audio/Malhão.mp3" },
 ];
 
 export default function MusicPage() {

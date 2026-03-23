@@ -2,6 +2,7 @@
 import { Play } from "lucide-react";
 
 const VIDEOS = [
+  { id: "EVLWLF1DMlU", title: "Live Set", date: "2026" },
   { id: "vyfKCLlJK5c", title: "Amendoeiras", date: "2026" },
   { id: "lHq4Is7riDE", title: "Vila F'Liz", date: "2025" },
   { id: "0rGIE_O-Ccc", title: "Amendoeiras", date: "2026" },
